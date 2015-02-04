@@ -1,4 +1,5 @@
 # hubot-seinfeld
+![hubot-seinfeld](https://i.imgur.com/vfHhtnB.png)
 Create Seinfeld logos of your text with hubot
 
 ### Usage
