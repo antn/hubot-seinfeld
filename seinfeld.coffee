@@ -19,8 +19,8 @@
 
 module.exports = (robot) ->
   robot.hear /seinfeld (.+)/i, (msg) ->
-    noun = msg.match[1]
-    url = "https://charlie.bz/cgi-bin/seinfeld/#{noun}.png"
+    input = encodeURIComponent(msg.match[1])
+    url = "https://charlie.bz/cgi-bin/seinfeld/#{input}.png"
 
     ping = msg.http(url).get (e, req) =>
       req.addListener "response", (res) =>
