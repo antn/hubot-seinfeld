@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot seinfeld <input> - Return a seinfeld logo with your input.
+#   hubot seinfeld me <input> - Return a seinfeld logo with your input.
 #
 # Notes:
 #   Thanks to @holman for his fuck-yeah-nouns script that this is based on.
@@ -18,7 +18,7 @@
 #   antn
 
 module.exports = (robot) ->
-  robot.hear /seinfeld (.+)/i, (msg) ->
+  robot.hear /seinfeld me (.+)/i, (msg) ->
     input = encodeURIComponent(msg.match[1])
     url = "https://charlie.bz/cgi-bin/seinfeld/#{input}.png"
 
