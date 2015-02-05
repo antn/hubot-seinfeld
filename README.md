@@ -3,7 +3,7 @@
 Create Seinfeld logos of your text with hubot
 
 ### Usage
-Stick seinfeld.coffee in your scripts folder and run `hubot seinfeld <input>`
+Stick seinfeld.coffee in your scripts folder and run `hubot seinfeld me <input>`
 
 ### Credits
 
