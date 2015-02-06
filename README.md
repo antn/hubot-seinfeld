@@ -2,11 +2,27 @@
 ![hubot-seinfeld](https://i.imgur.com/vfHhtnB.png)
 Create Seinfeld logos of your text with hubot
 
+### Installation
+
+Add `hubot-seinfeld` to your `package.json` file:
+
+```
+npm install --save hubot-seinfeld
+```
+
+Add `hubot-auth` to your `external-scripts.json`:
+
+```json
+["hubot-seinfeld"]
+```
+
+Run `npm install`
+
 ### Usage
-Stick seinfeld.coffee in your scripts folder and run `hubot seinfeld me <input>`
+`hubot seinfeld me <input>`
 
 ### Credits
 
-Thanks to [@charliesome](https://github.com/charliesome) for his seinfeld generator used in this script.
+Thanks to [@charliesome](https://github.com/charliesome) for his Seinfeld generator used in this script.
 
 Big thanks to [@holman](https://github.com/holman) for his fuck-yeah-nouns script that this is based on.

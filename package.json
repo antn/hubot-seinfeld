@@ -1,7 +1,7 @@
 {
   "name": "hubot-seinfeld",
   "description": "Create Seinfeld logos of your text with hubot.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "antn <anton@antn.me>",
   "license": "MIT",
 
