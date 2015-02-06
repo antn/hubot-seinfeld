@@ -1,4 +1,4 @@
-# hubot-seinfeld
+# hubot-seinfeld [![Build Status](https://travis-ci.org/antn/hubot-seinfeld.svg?branch=master)](https://travis-ci.org/antn/hubot-seinfeld)
 ![hubot-seinfeld](https://i.imgur.com/vfHhtnB.png)
 Create Seinfeld logos of your text with hubot
 
