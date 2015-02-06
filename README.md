@@ -10,7 +10,7 @@ Add `hubot-seinfeld` to your `package.json` file:
 npm install --save hubot-seinfeld
 ```
 
-Add `hubot-auth` to your `external-scripts.json`:
+Add `hubot-seinfeld` to your `external-scripts.json`:
 
 ```json
 ["hubot-seinfeld"]
