@@ -13,4 +13,4 @@ describe 'seinfeld', ->
     require('../src/seinfeld')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/seinfeld me/)
+    expect(@robot.respond).to.have.been.calledWith(/seinfeld me (.+)/i)
