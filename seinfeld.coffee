@@ -18,7 +18,7 @@
 #   antn
 
 module.exports = (robot) ->
-  robot.hear /seinfeld me (.+)/i, (msg) ->
+  robot.respond /seinfeld me (.+)/i, (msg) ->
     input = encodeURIComponent(msg.match[1])
     url = "https://charlie.bz/cgi-bin/seinfeld/#{input}.png"
 
