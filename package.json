@@ -1,25 +1,22 @@
 {
   "name": "hubot-seinfeld",
   "description": "Create Seinfeld logos of your text with hubot.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "antn <anton@antn.me>",
   "license": "MIT",
-
-  "keywords": ["seinfeld"],
-
+  "keywords": [
+    "seinfeld"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/antn/hubot-seinfeld.git"
   },
-
   "bugs": {
     "url": "https://github.com/antn/hubot-seinfeld/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +27,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
